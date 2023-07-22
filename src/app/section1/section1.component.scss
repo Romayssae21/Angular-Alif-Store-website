@@ -1,0 +1,61 @@
+
+
+div{
+    background-color: #DBD1BE99;
+        width: 1280px;
+}
+
+    .mid-buttons {
+      display: flex;
+      align-items: center;
+      flex: 1; 
+      justify-content: center;
+
+      width: 1280px;
+      height: 55px;
+      //left: 439px;
+      gap: 32px;
+
+      padding: 20px 0;
+
+    }
+    
+    button {
+        margin: 0 32px; 
+        text-decoration: none; 
+        font-family: 'Kalam', cursive;
+        font-size: 13px;
+        background: transparent; 
+        border: none; 
+        cursor: pointer; 
+        color: #0281A1;
+        height: 55px;
+
+        
+        padding: 0px 8px 0px 8px;
+        border: 0px 0px 2px 0px;
+        gap: 32px;
+
+    }
+
+    .but1 {
+        width:82px;
+        
+    }
+
+    .but2 {
+        width:150px;
+        
+    }
+
+    .but3 {
+        width:107px;
+    }
+
+
+    .but1,
+    .but2,
+    .but3 {
+        border-bottom: 2px solid #0281A1;
+        padding-bottom: 10px;
+    }

@@ -1,0 +1,27 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Parisienne&family=Sriracha&display=swap" rel="stylesheet">
+
+<mat-toolbar color="white">
+    <div class="logo">
+      <img src="assets/Calque_1.png" alt="Logo">
+    </div>
+  
+    <div class="center-buttons">
+      <button *ngIf="activeButtonIndex !== 0" (click)="onButtonClick(0)" [ngClass]="{ 'active': activeButtonIndex === 0 }">Acceuil</button>
+      <button (click)="onButtonClick(1)" [ngClass]="{ 'active': activeButtonIndex === 1 }"><span>Qui Sommes Nous?<mat-icon>keyboard_arrow_down</mat-icon></span></button>
+      <button (click)="onButtonClick(2)" [ngClass]="{ 'active': activeButtonIndex === 2 }"><span>Alif Store<mat-icon>keyboard_arrow_down</mat-icon></span></button>
+      <button (click)="onButtonClick(3)" [ngClass]="{ 'active': activeButtonIndex === 3 }">Boutique</button>
+      <button (click)="onButtonClick(4)" [ngClass]="{ 'active': activeButtonIndex === 4 }">A propos d'éducation</button>
+    </div>
+  
+    <div class="right-buttons">
+      <button>
+        <mat-icon>account_circle</mat-icon> Connexion
+      </button>
+      <button>
+        <mat-icon>shopping_cart</mat-icon> Panier
+      </button>
+    </div>
+  </mat-toolbar>
+  

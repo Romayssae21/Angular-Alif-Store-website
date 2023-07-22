@@ -1,0 +1,91 @@
+
+
+
+.radio-div{
+    background-color: #DBD1BE99;
+    width: 1280px;
+    display: flex;
+    align-items: center;
+    flex: 1; 
+    justify-content: center;
+
+    height:363px;
+    gap: 100px;
+
+}
+
+img{
+    width: 355px;
+    height: 288px;
+
+}
+
+.concept{
+    margin-top: 40px;
+    width: 473px;
+    gap: 32px;
+
+    h2{
+        width: 473px;
+        height: 54px;
+        font-family: 'Parisienne', cursive;
+        font-size: 34px;
+        font-weight: 700;
+        line-height: 54px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #403A34;
+
+
+    }
+
+    p{
+        width: 473px;
+        height: 54px;
+        font-family: 'Sriracha', cursive;
+        font-size: 14px;
+        line-height: 18px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #403A34;
+        
+
+
+    }
+    .but{
+        width:361px;
+        height: 42px;
+        padding: 10px 24px 10px 24px;
+        gap: 24px;
+        margin: 30px ;
+        margin-top:  60px; 
+
+        display: flex;
+        align-items: center;
+        flex: 1; 
+        justify-content: center;
+
+        img{
+            width: 151px;
+            height: 21px;
+            gap: 12px;
+        }
+    
+        .ecoute{
+            width: 186px;
+            height: 42px;
+            padding: 10px 24px 10px 24px;
+            border-color:#0281A1;
+            border-style:solid;
+            border-radius: 24px;
+            gap: 10px;
+            color: #0281A1;
+            background-color: transparent;
+            cursor: pointer;
+    
+    
+        }
+
+    }
+
+}
