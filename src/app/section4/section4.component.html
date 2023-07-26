@@ -3,13 +3,13 @@
 <link href="https://fonts.googleapis.com/css2?family=Parisienne&family=Sriracha&display=swap" rel="stylesheet">
 
 
-<div>
+<div class="section-container" [class.flex-reverse]="isImageFirst">
     <div class="text">
         <h2>{{ title }}</h2>
         <p>{{ content }}</p>
     </div>
     <div class="img-container">
-        <img src="assets/image 4.png" alt="image">
+        <img [src]="InputImage" alt="image">
     </div>
 </div>
 
